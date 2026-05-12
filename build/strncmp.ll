@@ -1,6 +1,6 @@
-; ModuleID = '/Users/hrimamohammed/Desktop/personal/ura-lang/src/tests/projects/ura-libft/strncmp.ura'
-source_filename = "/Users/hrimamohammed/Desktop/personal/ura-lang/src/tests/projects/ura-libft/strncmp.ura"
-target triple = "arm64-apple-macosx16.0.0"
+; ModuleID = '/ura-lang/src/tests/projects/ura-libft/strncmp.ura'
+source_filename = "/ura-lang/src/tests/projects/ura-libft/strncmp.ura"
+target triple = "x86_64-pc-linux-gnu"
 
 @STR0 = private unnamed_addr constant [4 x i8] c"abd\00", align 1
 @STR1 = private unnamed_addr constant [4 x i8] c"abc\00", align 1
@@ -105,7 +105,7 @@ declare i32 @printf(i8*, ...)
 !0 = !{i32 2, !"Debug Info Version", i32 3}
 !1 = !{i32 2, !"Dwarf Version", i32 4}
 !2 = distinct !DICompileUnit(language: DW_LANG_C, file: !3, producer: "ura", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, splitDebugInlining: false)
-!3 = !DIFile(filename: "strncmp.ura", directory: "/Users/hrimamohammed/Desktop/personal/ura-lang/src/tests/projects/ura-libft")
+!3 = !DIFile(filename: "strncmp.ura", directory: "/ura-lang/src/tests/projects/ura-libft")
 !4 = distinct !DISubprogram(name: "strncmp", linkageName: "strncmp", scope: null, file: !3, line: 5, type: !5, scopeLine: 5, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !6)
 !5 = !DISubroutineType(types: !6)
 !6 = !{}

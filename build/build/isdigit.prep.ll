@@ -1,6 +1,6 @@
-; ModuleID = '/Users/hrimamohammed/Desktop/personal/ura-lang/src/tests/projects/ura-libft/isdigit.ura'
-source_filename = "/Users/hrimamohammed/Desktop/personal/ura-lang/src/tests/projects/ura-libft/isdigit.ura"
-target triple = "arm64-apple-macosx16.0.0"
+; ModuleID = '/ura-lang/src/tests/projects/ura-libft/build/isdigit.prep.ura'
+source_filename = "/ura-lang/src/tests/projects/ura-libft/build/isdigit.prep.ura"
+target triple = "x86_64-pc-linux-gnu"
 
 @STR0 = private unnamed_addr constant [10 x i8] c"is alnum\0A\00", align 1
 @output_fmt = private unnamed_addr constant [10 x i8] c"is alnum\0A\00", align 1
@@ -47,11 +47,11 @@ declare i32 @printf(i8*, ...)
 !0 = !{i32 2, !"Debug Info Version", i32 3}
 !1 = !{i32 2, !"Dwarf Version", i32 4}
 !2 = distinct !DICompileUnit(language: DW_LANG_C, file: !3, producer: "ura", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, splitDebugInlining: false)
-!3 = !DIFile(filename: "isdigit.ura", directory: "/Users/hrimamohammed/Desktop/personal/ura-lang/src/tests/projects/ura-libft")
-!4 = distinct !DISubprogram(name: "isdigit", linkageName: "isdigit", scope: null, file: !3, line: 2, type: !5, scopeLine: 2, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !6)
+!3 = !DIFile(filename: "isdigit.prep.ura", directory: "/ura-lang/src/tests/projects/ura-libft/build")
+!4 = distinct !DISubprogram(name: "isdigit", linkageName: "isdigit", scope: null, file: !3, line: 1, type: !5, scopeLine: 1, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !6)
 !5 = !DISubroutineType(types: !6)
 !6 = !{}
-!7 = !DILocation(line: 2, scope: !4)
+!7 = !DILocation(line: 1, scope: !4)
 !8 = distinct !DISubprogram(name: "main", linkageName: "main", scope: null, file: !3, line: 4, type: !5, scopeLine: 4, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !6)
 !9 = !DILocation(line: 4, scope: !8)
 !10 = !DILocation(line: 5, scope: !8)
